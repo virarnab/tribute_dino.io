@@ -1,0 +1,91 @@
+body{
+    background: #D6DBDF;
+}
+
+
+.container{
+  width : 1000px;
+  margin : 0 auto;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.header{
+  background :#EE150E;
+  padding: 10px 0 10px 340px;
+
+}
+.header a{
+  color :  #FADBD8;
+  text-decoration: none;
+}
+.header a:hover{
+  color :  black;
+}
+.menu{
+  background : gold;
+  padding: 10px 0 10px 10px;
+}
+.menu a{
+  color : white;
+text-decoration: none;
+}
+.menu a:hover{
+  color : black;
+}
+.main{
+  padding-right: 20px;
+  margin : 0 0 20px 180px;
+  line-height: 20px;
+  font-size: 18px;
+  color : black;
+  font-style: normal;
+  font-family: arial;
+
+}
+footer{
+  padding: 6px 40px 6px 40px;
+  background : #5D6D7E;
+  width: 915px;
+  margin : 0 auto;
+  color : red;
+  }
+.linktitle{
+  text-decoration: none;
+  font-size: 20px;
+  color : gold;
+
+}
+
+#image{
+  padding-top: 10px;
+}
+.progress:hover .color{
+
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background: gold;
+}
+
+.progress{
+  overflow: hidden;
+  height: 20px;
+  background: grey;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+p a{
+  color : gray;
+text-decoration: none;
+}
+p a:hover{
+  color : red;
+}
+@keyframes example {
+  0% {background-color: white;}
+  25% {background-color: #3498DB;}
+  50% {background-color: blue;}
+  75% {background-color: #3498DB;}
+  100% {background-color: white;}
+}

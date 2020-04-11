@@ -1,0 +1,50 @@
+body{
+  background: #D6DBDF;
+}
+.container{
+  width:900px;
+
+  margin : 0 auto;
+}
+.header{
+  background :#EE150E;
+  padding: 10px 0 10px 340px;
+
+}
+.header a{
+  color :  #FADBD8;
+}
+.header a:hover{
+  color :  black;
+}
+.men{
+  height : 700px;
+  background-image: linear-gradient(white,indigo,blue);
+
+  padding: 100px 150px 100px 200px;
+
+}
+.men a{
+  color : yellow;
+  border : 5px white bold;
+  font-size: 35px;
+  float: none;
+  text-decoration: none;
+}
+.men a:hover{
+  color : #003300;
+  background : yellow;
+  border : 1px red bold;
+}
+h1{
+  font-size: 50px;
+  color : white;
+  font-family: fantasy;
+  text-align: justify;
+}
+#image{
+  box-shadow: 5px  10px gray;
+}
+P{
+  font-size: 13px;
+}
